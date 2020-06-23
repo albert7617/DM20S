@@ -25,7 +25,8 @@
   
 </body>
 <script type="text/javascript">
-Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vTsw-N1Mycn3C2tvTHE16j96v6B4_Fbb7_o3R9xgxDmdprr6pN_ygeIpf39JphneWh_jj5fPsP_Av6r/pub?gid=1529768825&single=true&output=csv", {
+// Papa.parse("https://docs.google.com/spreadsheets/d/e/2PACX-1vTsw-N1Mycn3C2tvTHE16j96v6B4_Fbb7_o3R9xgxDmdprr6pN_ygeIpf39JphneWh_jj5fPsP_Av6r/pub?gid=1529768825&single=true&output=csv", {
+Papa.parse("score.csv", {
   download: true,
   header: true,
   complete: function(results) {
